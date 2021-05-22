@@ -2,8 +2,8 @@
     define('FPDF_FONTPATH', '.');
     require ('fpdf.php');
 
-    $image = "left_to_right.png";
-    $name = "Left_To_Right";
+    $image = "landscape.png";
+    $name = "Landscape";
 
     //set it to writable location, a place for temp generated PNG files
     $IMG_DIR = dirname(__FILE__).DIRECTORY_SEPARATOR.'images'.DIRECTORY_SEPARATOR;
